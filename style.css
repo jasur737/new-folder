@@ -1,0 +1,33 @@
+@keyframes move {
+    0% {
+        transform: translateY(100%);
+    }
+
+    25% {
+        transform: translateX();
+    }
+    50% {
+        
+        transform: translateX(600%);
+    }
+
+    75% {
+      
+        transform: translateY(500%);
+    }
+    100% {
+        transform: translateX(1000%);
+    }
+}
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
